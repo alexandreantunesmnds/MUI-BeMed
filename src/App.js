@@ -10,26 +10,15 @@ function App() {
     
     <div className="App">
 
-<       NavigationBar
-        logo="logo.png"
-        links={[
-          { url: '/', text: 'Home' },
-          { url: '/about', text: 'About' },
-          { url: '/contact', text: 'Contact' },
-        ]}
-       />
 
-            <Button text="Click me to do nothing" color="blue" size="16px" onClick={() => console.log('Button clicked')} />
-
-
-            <Map
+      <Map
         title="Primary title"
         subtitle="Subtitle"
         content="Hello there, the angel from my nightmares the shadows of the background of the morgue."
         variant="primary"
       />
 
-
+        
       <Map
         title="Secondary title"
         subtitle="Subtitle"
